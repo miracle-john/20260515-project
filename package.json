@@ -1,0 +1,16 @@
+{
+  "name": "from-text-to-feeling",
+  "version": "1.0.0",
+  "description": "AI Sentiment Analysis Web Service",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "openai": "^4.28.0"
+  }
+}
